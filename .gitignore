@@ -1,3 +1,4 @@
-.terrafore
-tform.tfvars
+.terraform
+*.tfvars
 *tfstate
+*.hcl
