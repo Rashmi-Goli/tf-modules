@@ -11,8 +11,8 @@ locals{
     ]
 }
 
-resource "aws_security_group" "sg1"{
-  name        = "SG1"
+resource "aws_security_group" "sgroup1"{
+  name        = "sg1"
   description = "Allow TLS inbound traffic"
   vpc_id      = var.vpc_id
   dynamic ingress{
