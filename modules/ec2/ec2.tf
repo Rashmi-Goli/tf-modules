@@ -28,7 +28,7 @@ resource "aws_instance" "ec2-2"{
    
 
     tags = {
-        Name = "server- 2"
+        Name = "server 2"
     }
 }
 
