@@ -6,11 +6,11 @@ terraform {
     }
   }
 
-  backend "s3"{
-      bucket = "rg-bkt1"
-      key = "state/key"
-      region = "us-east-1"
-  }
+  # backend "s3"{
+  #     bucket = "gen-statebkt"
+  #     key = "state"
+  #     region = "us-east-1"
+  # }
 }
 
 module "secgroup"{
